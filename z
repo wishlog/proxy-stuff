@@ -1,0 +1,4 @@
+#terminal-notifier needed to be install for 'notification bubble' for Mac machines.
+
+sudo networksetup -setwebproxy Ethernet 127.0.0.1 8081; sudo networksetup -setsecurewebproxy Ethernet 127.0.0.1 8081
+terminal-notifier -message "Now using 127.0.0.1:8081 as web proxy" -title "Proxy Changed"
